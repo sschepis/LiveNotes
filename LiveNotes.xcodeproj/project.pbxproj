@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170C4A021562594800562799 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A011562594800562799 /* Cocoa.framework */; };
+		170C4A0C1562594800562799 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 170C4A0A1562594800562799 /* InfoPlist.strings */; };
+		170C4A0E1562594800562799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A0D1562594800562799 /* main.m */; };
+		170C4A121562594800562799 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 170C4A101562594800562799 /* Credits.rtf */; };
+		170C4A151562594800562799 /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A141562594800562799 /* LNAppDelegate.m */; };
+		170C4A181562594800562799 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170C4A161562594800562799 /* MainMenu.xib */; };
+		170C4A1B1562594800562799 /* LiveNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A191562594800562799 /* LiveNotes.xcdatamodeld */; };
+		170C4A231562594800562799 /* LiveNotesImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 170C4A201562594800562799 /* LiveNotesImporter.mdimporter */; };
+		170C4A251562594800562799 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A241562594800562799 /* CoreServices.framework */; };
+		170C4A271562594800562799 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A261562594800562799 /* CoreFoundation.framework */; };
+		170C4A291562594800562799 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A281562594800562799 /* CoreData.framework */; };
+		170C4A2B1562594800562799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A2A1562594800562799 /* Foundation.framework */; };
+		170C4A311562594800562799 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 170C4A2F1562594800562799 /* InfoPlist.strings */; };
+		170C4A331562594800562799 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A321562594800562799 /* main.c */; };
+		170C4A351562594800562799 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A341562594800562799 /* GetMetadataForFile.m */; };
+		170C4A381562594800562799 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C4A371562594800562799 /* MySpotlightImporter.m */; };
+		170C4A441562596E00562799 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170C4A431562596E00562799 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170C4A211562594800562799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170C49F41562594700562799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170C4A1F1562594800562799;
+			remoteInfo = LiveNotesImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170C49FD1562594800562799 /* LiveNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C4A011562594800562799 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		170C4A041562594800562799 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		170C4A051562594800562799 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		170C4A061562594800562799 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		170C4A091562594800562799 /* LiveNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveNotes-Info.plist"; sourceTree = "<group>"; };
+		170C4A0B1562594800562799 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		170C4A0D1562594800562799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		170C4A0F1562594800562799 /* LiveNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveNotes-Prefix.pch"; sourceTree = "<group>"; };
+		170C4A111562594800562799 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		170C4A131562594800562799 /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		170C4A141562594800562799 /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		170C4A171562594800562799 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		170C4A1A1562594800562799 /* LiveNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveNotes.xcdatamodel; sourceTree = "<group>"; };
+		170C4A201562594800562799 /* LiveNotesImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveNotesImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C4A241562594800562799 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		170C4A261562594800562799 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		170C4A281562594800562799 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		170C4A2A1562594800562799 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		170C4A2E1562594800562799 /* LiveNotesImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveNotesImporter-Info.plist"; sourceTree = "<group>"; };
+		170C4A301562594800562799 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		170C4A321562594800562799 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		170C4A341562594800562799 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		170C4A361562594800562799 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		170C4A371562594800562799 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		170C4A391562594800562799 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		170C4A3A1562594800562799 /* LiveNotesImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveNotesImporter-Prefix.pch"; sourceTree = "<group>"; };
+		170C4A431562596E00562799 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170C49FA1562594800562799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A441562596E00562799 /* WebKit.framework in Frameworks */,
+				170C4A021562594800562799 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C4A1D1562594800562799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A251562594800562799 /* CoreServices.framework in Frameworks */,
+				170C4A271562594800562799 /* CoreFoundation.framework in Frameworks */,
+				170C4A291562594800562799 /* CoreData.framework in Frameworks */,
+				170C4A2B1562594800562799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170C49F21562594700562799 = {
+			isa = PBXGroup;
+			children = (
+				170C4A431562596E00562799 /* WebKit.framework */,
+				170C4A071562594800562799 /* LiveNotes */,
+				170C4A2C1562594800562799 /* LiveNotesImporter */,
+				170C4A001562594800562799 /* Frameworks */,
+				170C49FE1562594800562799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170C49FE1562594800562799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170C49FD1562594800562799 /* LiveNotes.app */,
+				170C4A201562594800562799 /* LiveNotesImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170C4A001562594800562799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A011562594800562799 /* Cocoa.framework */,
+				170C4A241562594800562799 /* CoreServices.framework */,
+				170C4A261562594800562799 /* CoreFoundation.framework */,
+				170C4A281562594800562799 /* CoreData.framework */,
+				170C4A2A1562594800562799 /* Foundation.framework */,
+				170C4A031562594800562799 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		170C4A031562594800562799 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A041562594800562799 /* AppKit.framework */,
+				170C4A051562594800562799 /* CoreData.framework */,
+				170C4A061562594800562799 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		170C4A071562594800562799 /* LiveNotes */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A131562594800562799 /* LNAppDelegate.h */,
+				170C4A141562594800562799 /* LNAppDelegate.m */,
+				170C4A161562594800562799 /* MainMenu.xib */,
+				170C4A191562594800562799 /* LiveNotes.xcdatamodeld */,
+				170C4A081562594800562799 /* Supporting Files */,
+			);
+			path = LiveNotes;
+			sourceTree = "<group>";
+		};
+		170C4A081562594800562799 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A091562594800562799 /* LiveNotes-Info.plist */,
+				170C4A0A1562594800562799 /* InfoPlist.strings */,
+				170C4A0D1562594800562799 /* main.m */,
+				170C4A0F1562594800562799 /* LiveNotes-Prefix.pch */,
+				170C4A101562594800562799 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		170C4A2C1562594800562799 /* LiveNotesImporter */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A341562594800562799 /* GetMetadataForFile.m */,
+				170C4A361562594800562799 /* MySpotlightImporter.h */,
+				170C4A371562594800562799 /* MySpotlightImporter.m */,
+				170C4A391562594800562799 /* Importer Read Me.txt */,
+				170C4A2D1562594800562799 /* Supporting Files */,
+			);
+			path = LiveNotesImporter;
+			sourceTree = "<group>";
+		};
+		170C4A2D1562594800562799 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170C4A2E1562594800562799 /* LiveNotesImporter-Info.plist */,
+				170C4A2F1562594800562799 /* InfoPlist.strings */,
+				170C4A321562594800562799 /* main.c */,
+				170C4A3A1562594800562799 /* LiveNotesImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170C49FC1562594800562799 /* LiveNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C4A401562594800562799 /* Build configuration list for PBXNativeTarget "LiveNotes" */;
+			buildPhases = (
+				170C49F91562594800562799 /* Sources */,
+				170C49FA1562594800562799 /* Frameworks */,
+				170C49FB1562594800562799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170C4A221562594800562799 /* PBXTargetDependency */,
+			);
+			name = LiveNotes;
+			productName = LiveNotes;
+			productReference = 170C49FD1562594800562799 /* LiveNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170C4A1F1562594800562799 /* LiveNotesImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C4A3D1562594800562799 /* Build configuration list for PBXNativeTarget "LiveNotesImporter" */;
+			buildPhases = (
+				170C4A1C1562594800562799 /* Sources */,
+				170C4A1D1562594800562799 /* Frameworks */,
+				170C4A1E1562594800562799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveNotesImporter;
+			productName = LiveNotesImporter;
+			productReference = 170C4A201562594800562799 /* LiveNotesImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170C49F41562594700562799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 170C49F71562594700562799 /* Build configuration list for PBXProject "LiveNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 170C49F21562594700562799;
+			productRefGroup = 170C49FE1562594800562799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170C49FC1562594800562799 /* LiveNotes */,
+				170C4A1F1562594800562799 /* LiveNotesImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170C49FB1562594800562799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A0C1562594800562799 /* InfoPlist.strings in Resources */,
+				170C4A121562594800562799 /* Credits.rtf in Resources */,
+				170C4A181562594800562799 /* MainMenu.xib in Resources */,
+				170C4A231562594800562799 /* LiveNotesImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C4A1E1562594800562799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A311562594800562799 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170C49F91562594800562799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A0E1562594800562799 /* main.m in Sources */,
+				170C4A151562594800562799 /* LNAppDelegate.m in Sources */,
+				170C4A1B1562594800562799 /* LiveNotes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C4A1C1562594800562799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C4A331562594800562799 /* main.c in Sources */,
+				170C4A351562594800562799 /* GetMetadataForFile.m in Sources */,
+				170C4A381562594800562799 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170C4A221562594800562799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170C4A1F1562594800562799 /* LiveNotesImporter */;
+			targetProxy = 170C4A211562594800562799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170C4A0A1562594800562799 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C4A0B1562594800562799 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		170C4A101562594800562799 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C4A111562594800562799 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		170C4A161562594800562799 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C4A171562594800562799 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		170C4A2F1562594800562799 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C4A301562594800562799 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170C4A3B1562594800562799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		170C4A3C1562594800562799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		170C4A3E1562594800562799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveNotesImporter/LiveNotesImporter-Prefix.pch";
+				INFOPLIST_FILE = "LiveNotesImporter/LiveNotesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		170C4A3F1562594800562799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveNotesImporter/LiveNotesImporter-Prefix.pch";
+				INFOPLIST_FILE = "LiveNotesImporter/LiveNotesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		170C4A411562594800562799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveNotes/LiveNotes-Prefix.pch";
+				INFOPLIST_FILE = "LiveNotes/LiveNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		170C4A421562594800562799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveNotes/LiveNotes-Prefix.pch";
+				INFOPLIST_FILE = "LiveNotes/LiveNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170C49F71562594700562799 /* Build configuration list for PBXProject "LiveNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C4A3B1562594800562799 /* Debug */,
+				170C4A3C1562594800562799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170C4A3D1562594800562799 /* Build configuration list for PBXNativeTarget "LiveNotesImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C4A3E1562594800562799 /* Debug */,
+				170C4A3F1562594800562799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		170C4A401562594800562799 /* Build configuration list for PBXNativeTarget "LiveNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C4A411562594800562799 /* Debug */,
+				170C4A421562594800562799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		170C4A191562594800562799 /* LiveNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				170C4A1A1562594800562799 /* LiveNotes.xcdatamodel */,
+			);
+			currentVersion = 170C4A1A1562594800562799 /* LiveNotes.xcdatamodel */;
+			path = LiveNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 170C49F41562594700562799 /* Project object */;
+}
